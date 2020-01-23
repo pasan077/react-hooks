@@ -13,7 +13,9 @@ function App() {
           onClick={() => {
             setCartItems([...cartItems, "apple"]);
           }}
-        />
+        >
+          Add to cart
+        </button>
       </header>
     </div>
   );
